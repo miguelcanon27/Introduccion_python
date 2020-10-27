@@ -1,9 +1,15 @@
 
 
 
-# flujo por gravedad
+
+##### Flujo por Gravedad
+
 
 # y = a x + b
+
+# y = ax + b
+ # T = a * altitud + B
+
 
 """
 
@@ -55,18 +61,18 @@ def temperatura (h):
 
 #interaciones
 
-lista = ['altitud_1','altitud_2','altitud_3','altitud_4']
+lista = ['altitud_1','altitud_2','altitud_3','altitud_4'] # lista
 
-dicci = {'altitud_1':1500,'altitud_2':200,'altitud_3':1000,'altitud_4':600}
+dicci = {'altitud_1':1500,'altitud_2':200,'altitud_3':1000,'altitud_4':600} # diccionario
 
-resultado = []
-for n in lista:
+resultado = [] # lista vacia que almacenara los resultados
+for n in lista: # ciclo for
 
-    altitud = dicci[n]
+    altitud = dicci[n] # selecionamos el valor de altitud en el diccionario 
 
-    Te = temperatura(altitud)
+    Te = temperatura(altitud) # corremos la funcion
 
-    resultado.append(Te)
+    resultado.append(Te) #adicionamos el resultado a la lista vacia
 
 print(resultado)
 
