@@ -1,7 +1,14 @@
 
 
+"""codigo estructura de datos comentario largo entre comillas"""
+#tipos de datos
 
-"""codigo estructura de datos"""
+# int entero
+#long enteros largos, se pueden representar en octal o hexacedcimal
+# float valores reales de punto flotante
+#complex (numeros complejos)
+
+
 
 # numericas
 a = 2
@@ -11,38 +18,59 @@ b = 2.3
 name = 'miguel'
 
 
-#cadenas
 
-titulo = 'bievenidos al curso evaluacion del recurso'
+############## cadenas
 
-# print(titulo[0:10])
+titulo = 'Bienvenidos al Curso Evaluacion del Recurso Hidrico'
+
+# como acceder a caracteres de una cadena
+
+# print(titulo) # funcion print nos muestra el resultado 
+# print(titulo[0]) # primer caracter
+# print(titulo[0:11]) # conjunto de caracteres
+# print(titulo[11:-30]) # conjunto de caracteres eliminando los 30 ultimos
+# date = ' -26-10-2020' # cadena
+# print(titulo+date) # concatenar cadenas
+
+
+################# Operadores
+
 
 # operadores aritmeticos
 
-c = a + b
-d = a - b
-e = a * b
-f = a / b
-g = a ** 2
+c = a + b # suma
+d = a - b #resta
+e = a * b # multiplicacion
+f = a / b #division
+g = a ** 2 # Potencia
+
 
 #operadores logicos
 
-# print(a==2) # igualdad
-# print(a!=3)# diferencia
-# print(a>=3)#mayor
-# print(a<=4)# menor
+print(a == b) #igualdad
+print(a != b) # diferente
+print(a > b) # a mayor
+print(a <= b) # menor o igual
+
+# #operadores compuestos
 #
-# #operadores compuesto
-#
+print(not True) #not
+print(True and False)# and
+print(True or False) # or
+
 # print(a ==2 or a>2)
 
-# listas
+########### listas
 
-lista = [1 , 2 , 5]
+#elementos separados por comas y encerrados entre corchetes [] para acceder empleamos [:]
 
-lista_a = ['hola','miguel']
+lista = [1 , 2 , 5] # numericas
 
-print( lista + lista_a )
+lista_a = ['hola','miguel'] # alfanumericas
+
+lista_c = [2,'bienvenidos','hola',20,2.6,1.4444] # combinacion
+
+print( lista + lista_a ) # concatenar dos listas
 
 
 
