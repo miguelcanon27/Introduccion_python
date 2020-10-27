@@ -72,10 +72,12 @@ lista_c = [2,'bienvenidos','hola',20,2.6,1.4444] # combinacion
 
 print( lista + lista_a ) # concatenar dos listas
 
+print( lista *2  ) # duplicar
 
 
+# ##### tuplas
 
-# tuplas
+#diferencia entre las listas, las tuplas no puede ser modificado su tamaño, se consideran listas de solo lectura parentesis
 
 tupla = (1,3,'miguel')
 
@@ -83,7 +85,11 @@ tupla = (1,3,'miguel')
 print(type(lista))
 
 
-# diccionario
+########### Diccionario
+
+# combinacion de numeros y cadenas, consiste en pares de clave - valor
+# se encuentran encerrados entre llaves {}
+# la informacion se llama atraves de corchetes []
 
 diccio = {'nombre':'miguel',2:'canon',3:29}
 
@@ -93,7 +99,15 @@ print(diccio[2])
 
 
 
+"""Comentarios largos
+"""
 
+#comentarios cortos
+
+
+# corchetes == [] listas, acceder a informacion
+# parentesis == () permiten acceder a funciones
+# llaves {} #diccionarios
 
 
 
