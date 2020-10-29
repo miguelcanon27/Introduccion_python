@@ -7,6 +7,7 @@ Curso:
 Evaluacion del recurso hidrico con programacion cientifica - Proyecto S-multistor 
 
 Autor : Miguel Angel Cañon 
+
 Email: Miguel_canon@javeriana.edu.co
 
-Pontificia Universidad Javeriana
+Pontificia Universidad Javeriana - Bogota - Colombia
