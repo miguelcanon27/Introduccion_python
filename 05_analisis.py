@@ -26,7 +26,7 @@ plt.savefig('series_caudal.png',dpi=200) # se guarda la figura en formato png
 plt.show() # comando para mostrar las imagenes
 
 # ciclo que permite mostrar todas las graficas
-for sta in estaciones[0:2]:
+for sta in estaciones[0:2]: # ciclo limitado para el primer y segun elemento
     plt.plot(df.index, df[sta], '--', color='r', linewidth=0.5) # caracteristicas del plot
     plt.title('Estacion  de caudal '+ str(sta)  )
     plt.ylabel('m3/s')
