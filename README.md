@@ -1,12 +1,12 @@
 # Introduccion_python
 
-scrips desarrollados en el taller de introduccion a python
+Scripts desarrollados en el taller de introduccion a python
 
-curso:
+Curso:
 
 Evaluacion del recurso hidrico con programacion cientifica - Proyecto S-multistor 
 
-autor : Miguel Angel Cañon 
+Autor : Miguel Angel Cañon 
 Email: Miguel_canon@javeriana.edu.co
 
 Pontificia Universidad Javeriana
